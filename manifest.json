@@ -1,0 +1,23 @@
+{
+  "name": "chromeEX example",
+  "description": "Simple Sample",
+  "version": "1.0",
+  "permissions": [
+    "background",
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Simple Sample",
+    "default_icon": "img/icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "manifest_version": 2
+}
