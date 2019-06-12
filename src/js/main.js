@@ -8,6 +8,7 @@
 function click(e) {
   var coder = document.getElementById('code-sample');
   var htmlstring = "<!DOCTYPE html>";
+  htmlstring += '\n' + '<html lang="ja" data-sticky-footer="tr</html>ue">';
   htmlstring += '\n' + '<head>';
   htmlstring += '\n' + '  <meta charset="utf-8">';
   htmlstring += '\n' + '  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">';
@@ -17,6 +18,7 @@ function click(e) {
   htmlstring += '\n' + '  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />';
   htmlstring += '\n' + '  <link rel="shortcut icon" href="img/favicon.ico" />';
   htmlstring += '\n' + '</head>';
+  htmlstring += '\n' + '<body>';
   htmlstring += '\n' + '<div class="wrapper">';
   htmlstring += '\n' + '  <header>';
   htmlstring += '\n' + '  </header>';
@@ -27,7 +29,6 @@ function click(e) {
   htmlstring += '\n' + '    </section>';
   htmlstring += '\n' + '  </main>';
   htmlstring += '\n' + '</div>';
-  htmlstring += '\n' + '<body>';
   htmlstring += '\n' + '  <script type="text/javascript" src="script.js"></script>';
   htmlstring += '\n' + '</body>';
   htmlstring += '\n' + '</html>';
